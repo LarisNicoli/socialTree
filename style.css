@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.social-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.social-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture-circle {
+    max-width: 200px;
+    width: 200px;
+    height: auto;
+
+    border-radius: 50%;
+    border: 5px solid #BB99DD;
+
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+
+    color: #BB99DD;
+
+    margin-top: 15px;
+
+    font-family: 'Poppins';
+}
+
+.social-music {
+    list-style: none;
+    padding: 0;
+}
+
+.social-music-option {
+    display: flex;
+
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+
+    width: 326px;
+    height: 49px;
+
+    margin-bottom: 17px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.social-music li:first-child {
+    margin-top: 33px;
+}
+
+.social-music-link {
+    text-decoration: none;
+
+}
+
+.social-network-icons {
+    margin-top: 68px;
+}
+
+.list-social-network {
+    list-style: none;
+
+    display: flex;
+    gap: 29px;
+
+    padding: 0;
+}
