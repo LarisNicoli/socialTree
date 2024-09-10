@@ -44,16 +44,16 @@
     font-family: 'Poppins';
 }
 
-.social-music {
+.social-list {
     list-style: none;
     padding: 0;
 }
 
-.social-music-option {
+.social-list-option {
     display: flex;
 
     border: 2px solid #BB99DD;
-    border-radius: 4px;
+    border-radius: 10px;
 
     width: 326px;
     height: 49px;
@@ -66,13 +66,23 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
+
+    background-color: #BB99DD;
+    
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.2s;
 }
 
-.social-music li:first-child {
+.social-list-option:hover{
+    opacity: 0.1;
+}
+
+.social-list li:first-child {
     margin-top: 33px;
 }
 
-.social-music-link {
+.social-list-link {
     text-decoration: none;
 
 }
